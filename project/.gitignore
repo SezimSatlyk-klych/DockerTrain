@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.env/
+.venv/
+ENV/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotenv files
+.env
+.env.*
+
+# Docker
+*.pid
+*.db
+*.sqlite3
+docker-compose.override.yml
+
+# Build / dist
+dist/
+build/
+*.bak
+*.orig
+
+# Node / frontend (если используешь)
+node_modules/
+
+# Test / coverage
+.coverage
+.cache/
+pytest_cache/
+
+# HTML dev files
+*.html~
